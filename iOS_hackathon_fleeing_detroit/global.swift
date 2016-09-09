@@ -14,3 +14,5 @@ var time = 100
 var distance = 1000
 var ammo = 6
 var name = "Mad Jaq"
+var food = 10
+var bait = 0
