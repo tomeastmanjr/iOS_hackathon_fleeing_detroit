@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1E5D23E1D832DB900018721 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5D23D1D832DB900018721 /* global.swift */; };
+		C1E5D2401D83505C00018721 /* DetroitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5D23F1D83505C00018721 /* DetroitViewController.swift */; };
+		C1E5D2421D83512E00018721 /* HeartlandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5D2411D83512E00018721 /* HeartlandViewController.swift */; };
+		C1E5D2441D83516A00018721 /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5D2431D83516A00018721 /* MountainsViewController.swift */; };
+		C1E5D2461D8351B400018721 /* TreasureCoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5D2451D8351B400018721 /* TreasureCoveViewController.swift */; };
 		C1FAF7261D832414000E1AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF7251D832414000E1AF8 /* AppDelegate.swift */; };
 		C1FAF7281D832414000E1AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF7271D832414000E1AF8 /* ViewController.swift */; };
 		C1FAF72B1D832414000E1AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FAF7291D832414000E1AF8 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1E5D23D1D832DB900018721 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		C1E5D23F1D83505C00018721 /* DetroitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetroitViewController.swift; sourceTree = "<group>"; };
+		C1E5D2411D83512E00018721 /* HeartlandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartlandViewController.swift; sourceTree = "<group>"; };
+		C1E5D2431D83516A00018721 /* MountainsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
+		C1E5D2451D8351B400018721 /* TreasureCoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreasureCoveViewController.swift; sourceTree = "<group>"; };
 		C1FAF7221D832414000E1AF8 /* iOS_hackathon_fleeing_detroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_hackathon_fleeing_detroit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FAF7251D832414000E1AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1FAF7271D832414000E1AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +110,11 @@
 				C1FAF7251D832414000E1AF8 /* AppDelegate.swift */,
 				C1FAF7271D832414000E1AF8 /* ViewController.swift */,
 				C1FAF7291D832414000E1AF8 /* Main.storyboard */,
+				C1E5D2451D8351B400018721 /* TreasureCoveViewController.swift */,
+				C1E5D2431D83516A00018721 /* MountainsViewController.swift */,
+				C1E5D2411D83512E00018721 /* HeartlandViewController.swift */,
+				C1E5D23F1D83505C00018721 /* DetroitViewController.swift */,
+				C1E5D23D1D832DB900018721 /* global.swift */,
 				C1FAF72C1D832414000E1AF8 /* Assets.xcassets */,
 				C1FAF72E1D832414000E1AF8 /* LaunchScreen.storyboard */,
 				C1FAF7311D832414000E1AF8 /* Info.plist */,
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E5D2401D83505C00018721 /* DetroitViewController.swift in Sources */,
+				C1E5D2421D83512E00018721 /* HeartlandViewController.swift in Sources */,
+				C1E5D2461D8351B400018721 /* TreasureCoveViewController.swift in Sources */,
+				C1E5D23E1D832DB900018721 /* global.swift in Sources */,
+				C1E5D2441D83516A00018721 /* MountainsViewController.swift in Sources */,
 				C1FAF7281D832414000E1AF8 /* ViewController.swift in Sources */,
 				C1FAF7261D832414000E1AF8 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +504,7 @@
 				C1FAF74C1D832414000E1AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FAF74D1D832414000E1AF8 /* Build configuration list for PBXNativeTarget "iOS_hackathon_fleeing_detroitTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				C1FAF74F1D832414000E1AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FAF7501D832414000E1AF8 /* Build configuration list for PBXNativeTarget "iOS_hackathon_fleeing_detroitUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				C1FAF7521D832414000E1AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
